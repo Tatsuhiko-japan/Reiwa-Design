@@ -242,7 +242,7 @@ button {
   left: 0;
   right: 0;
   font-family: "Montserrat", sans-serif;
-  background: #ffffff1a;
+  background: rgba(255, 255, 255, 0.1019607843);
 }
 @media screen and (max-width: 767px) {
   .header,
@@ -421,6 +421,12 @@ button {
   width: 100%;
   padding-top: 50.6%;
 }
+@media screen and (max-width: 767px) {
+  .top-inner {
+    padding: 0 16px;
+    padding-top: 0%;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .top-message {
@@ -468,7 +474,7 @@ button {
   height: 50px;
   color: #ffffff;
   background-color: #ffaa3b;
-  box-shadow: 0px 3px 5px #3e3e3e33;
+  box-shadow: 0px 3px 5px rgba(62, 62, 62, 0.2);
   border-radius: 10px;
   display: inline-block;
 }
@@ -505,7 +511,7 @@ button {
   margin: 0 auto;
   padding: 60px 60px 40px 60px;
   padding-bottom: 0;
-  box-shadow: 0px 5px 12px #3e3e3e33;
+  box-shadow: 0px 5px 12px rgba(62, 62, 62, 0.2);
 }
 @media screen and (max-width: 767px) {
   .news-wrapper {
@@ -568,7 +574,7 @@ button {
   }
 }
 .news-item-link:hover {
-  background-color: #4973ff1a;
+  background-color: rgba(73, 115, 255, 0.1019607843);
 }
 @media screen and (min-width: 768px) {
   .news-item-link {
@@ -692,7 +698,7 @@ button {
   padding: 60px 45px;
   display: flex;
   justify-content: space-between;
-  box-shadow: 0px 5px 12px #3e3e3e33;
+  box-shadow: 0px 5px 12px rgba(62, 62, 62, 0.2);
 }
 @media screen and (max-width: 767px) {
   .service__list {
@@ -989,7 +995,7 @@ button {
   }
 }
 .price-table th {
-  padding: 16px 100px;
+  padding: 16px 80px;
   background: #3e3e3e;
   font-size: 24px;
   color: #fff;
@@ -1002,7 +1008,7 @@ button {
 }
 @media screen and (max-width: 767px) {
   .price-table th:first-child {
-    width: 93.6px;
+    width: 140px;
     height: 56px;
     text-align: left;
   }
@@ -1078,7 +1084,7 @@ button {
   width: 50%;
   background: #fff;
   padding: 120px 0px 60px 60px;
-  box-shadow: 0px 0px 10px #00000029;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1607843137);
   z-index: 2;
 }
 @media screen and (max-width: 767px) {
@@ -1249,14 +1255,12 @@ accordion
   .accordion_area .accordion_one .ac_header {
     padding: 1.5rem 2rem 1.5rem 1rem;
   }
-
   .accordion_area .accordion_one .ac_header .i_box {
     right: 0.8rem;
     width: 15px;
     height: 15px;
     margin-top: -7px;
   }
-
   .accordion_area .accordion_one .ac_header .i_box:before {
     width: 15px;
   }
@@ -1331,7 +1335,6 @@ faq
   .p-faq__headinner {
     padding-left: 25px;
   }
-
   .p-faq__headinner::before {
     font-size: 14px;
   }
@@ -1341,7 +1344,7 @@ faq
   padding: 16px;
   position: relative;
   line-height: 1.5;
-  background: #3b69ff33;
+  background: rgba(59, 105, 255, 0.2);
   border-radius: 4px;
   padding-left: 25px;
 }
@@ -1354,7 +1357,7 @@ faq
 
 .p-faq__bodyinner p.p-faq__a-txt {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.05rem;
 }
 
@@ -1362,11 +1365,15 @@ faq
   .p-faq__bodyinner::before {
     font-size: 14px;
   }
-
   .p-faq__bodyinner p.p-faq__a-txt {
     font-size: 14px;
+    font-weight: normal;
   }
 }
+.p-faq__a-txt {
+  font-weight: normal;
+}
+
 .s_section {
   max-width: 612px;
   margin: 0 auto;
@@ -1637,11 +1644,11 @@ a._a:hover {
 }
 .contact input[type=text]:focus,
 .contact input[type=email]:focus {
-  box-shadow: #4973ff80 0 0 5pt;
+  box-shadow: rgba(73, 115, 255, 0.5019607843) 0 0 5pt;
 }
 .contact input[type=text]:hover,
 .contact input[type=email]:hover {
-  box-shadow: #4973ff80 0 0 5pt;
+  box-shadow: rgba(73, 115, 255, 0.5019607843) 0 0 5pt;
 }
 .contact textarea {
   width: 100%;
@@ -1652,10 +1659,10 @@ a._a:hover {
   border-radius: 2px;
 }
 .contact textarea:focus {
-  box-shadow: #4973ff80 0 0 5pt;
+  box-shadow: rgba(73, 115, 255, 0.5019607843) 0 0 5pt;
 }
 .contact textarea:hover {
-  box-shadow: #4973ff80 0 0 5pt;
+  box-shadow: rgba(73, 115, 255, 0.5019607843) 0 0 5pt;
 }
 @media screen and (max-width: 767px) {
   .contact textarea {
@@ -1817,10 +1824,10 @@ textarea {
   width: 178px;
 }
 .select-test:focus {
-  box-shadow: #4973ff80 0 0 5pt;
+  box-shadow: rgba(73, 115, 255, 0.5019607843) 0 0 5pt;
 }
 .select-test:hover {
-  box-shadow: #4973ff80 0 0 5pt;
+  box-shadow: rgba(73, 115, 255, 0.5019607843) 0 0 5pt;
 }
 @media screen and (max-width: 767px) {
   .select-test {
@@ -1856,17 +1863,16 @@ textarea {
 }
 
 .contact-radio-input:focus {
-  box-shadow: #4973ff80 0 0 5pt;
+  box-shadow: rgba(73, 115, 255, 0.5019607843) 0 0 5pt;
 }
 .contact-radio-input:hover {
-  box-shadow: #4973ff80 0 0 5pt;
+  box-shadow: rgba(73, 115, 255, 0.5019607843) 0 0 5pt;
 }
 .contact-radio-input:active {
-  background-color: #4973ff33;
+  background-color: rgba(73, 115, 255, 0.2);
 }
 .contact-radio-input:checked + label {
-  background: #4973ff33;
-  /* マウス選択時の背景色を指定する */
+  background: rgba(73, 115, 255, 0.2); /* マウス選択時の背景色を指定する */
 }
 
 @media screen and (max-width: 767px) {
@@ -1913,7 +1919,7 @@ textarea {
   background: #ffaa3b;
   color: #fff;
   border-radius: 10px;
-  box-shadow: 0px 3px 5px #00000033;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
   border: none;
   width: 173px;
   height: 50px;

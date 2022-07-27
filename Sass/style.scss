@@ -565,6 +565,12 @@ button {
   max-width: 1240px;
   width: 100%;
   padding-top: 50.6%;
+
+  @include mq ('sm') {
+    padding: 0 16px;
+    padding-top: 0%;
+  }
+  
 }
 
 .top-message {
@@ -1160,7 +1166,7 @@ button {
   }
 
   th {
-    padding: 16px 100px;
+    padding: 16px 80px;
     background: #3e3e3e;
     font-size: 24px;
     color: #fff;
@@ -1172,7 +1178,7 @@ button {
       width: 262px;
 
       @include mq("sm") {
-        width: 93.6px;
+        width: 140px;
         height: 56px;
         text-align: left;
       }
@@ -1530,7 +1536,7 @@ faq
 
 .p-faq__bodyinner p.p-faq__a-txt {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.05rem;
 }
 
@@ -1540,14 +1546,18 @@ faq
   }
   .p-faq__bodyinner p.p-faq__a-txt {
     font-size: 14px;
+    font-weight: normal;
   }
+}
+
+.p-faq__a-txt {
+  font-weight: normal;
 }
 
 .s_section {
   max-width: 612px;
   margin: 0 auto;
   margin-right: 0;
-  //   padding: 2rem 10px;
 }
 .gutter > *:not(:last-child) {
   margin-bottom: 2.2rem;
