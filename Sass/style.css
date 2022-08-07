@@ -1266,7 +1266,7 @@ accordion
   }
 }
 .accordion_area .accordion_one .ac_header .i_box:after {
-  height: 15px;
+  height: 17px;
 }
 @media screen and (max-width: 767px) {
   .accordion_area .accordion_one .ac_header .i_box:after {

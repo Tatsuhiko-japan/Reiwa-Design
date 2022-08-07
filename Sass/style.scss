@@ -1359,8 +1359,6 @@ accordion
   border-radius: 0px 0px 4px 4px;
 }
 
-.accordion_area {
-}
 .accordion_area .accordion_one .ac_header {
   background-color: #ffffff;
   padding: 1rem 4rem 0.8rem 1rem;
@@ -1400,8 +1398,8 @@ accordion
   height: 0;
   top: 0;
   bottom: 0;
-  //   right: 0;
 }
+
 .accordion_area .accordion_one .ac_header .i_box:after {
   border-left: 4px solid #3a68ff;
   width: 0;
@@ -1441,8 +1439,7 @@ accordion
 }
 
 .accordion_area .accordion_one .ac_header .i_box:after {
-  height: 15px;
-  // right: 0px;
+  height: 17px;
 
   @include mq("sm") {
     right: 5px;
