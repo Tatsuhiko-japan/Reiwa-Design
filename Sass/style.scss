@@ -1340,8 +1340,6 @@ button {
 accordion
 =========*/
 
-.s_section {
-}
 
 .accordion_area {
   margin-top: 2.4em;
@@ -1443,6 +1441,7 @@ accordion
 
   @include mq("sm") {
     right: 5px;
+    height: 15px;
   }
 }
 
@@ -1461,6 +1460,11 @@ accordion
     padding: 1rem 2rem 0.5rem 1rem;
   }
 }
+
+.accordion_one {
+  background:#FFFFFF ;
+}
+
 
 /*=========
 faq
@@ -1520,15 +1524,6 @@ faq
     padding-left: 0;
     padding: 8px 16px 8px 12px;
   }
-}
-
-.p-faq__bodyinner::before {
-  //   position: absolute;
-  //   left: 0;
-  //   content: "A";
-  //   color: #de0000;
-  //   font-size: 20px;
-  //   font-weight: bold;
 }
 
 .p-faq__bodyinner p.p-faq__a-txt {

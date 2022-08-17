@@ -1271,6 +1271,7 @@ accordion
 @media screen and (max-width: 767px) {
   .accordion_area .accordion_one .ac_header .i_box:after {
     right: 5px;
+    height: 15px;
   }
 }
 
@@ -1290,6 +1291,10 @@ accordion
   .accordion_area .accordion_one .ac_header {
     padding: 1rem 2rem 0.5rem 1rem;
   }
+}
+
+.accordion_one {
+  background: #FFFFFF;
 }
 
 /*=========
