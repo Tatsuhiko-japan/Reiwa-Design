@@ -403,14 +403,14 @@ button {
 =============================================== */
 @media screen and (max-width: 767px) {
   .top {
-    background: url(../img/mv.png) center left 22.5%/cover;
+    background: url(../img/mv.jpg) center left 22.5%/cover;
     padding-top: 229px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .top-picture {
-    background: url(../img/mv.png) center center/cover;
+    background: url(../img/mv.jpg) center center/cover;
   }
 }
 

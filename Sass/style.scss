@@ -548,14 +548,14 @@ button {
 
 .top {
   @include mq("sm") {
-    background: url(../img/mv.png) center left 22.5% / cover;
+    background: url(../img/mv.jpg) center left 22.5% / cover;
     padding-top: 229px;
   }
 }
 
 .top-picture {
   @include mq("md") {
-    background: url(../img/mv.png) center center / cover;
+    background: url(../img/mv.jpg) center center / cover;
   }
 }
 
